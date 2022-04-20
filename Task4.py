@@ -1,11 +1,10 @@
 #Find primes
 
-
 def main():
 
     def isprime(number):
         if number == 1:
-            return flag
+            return (number, "is not prime")
 
         flag = False
 
